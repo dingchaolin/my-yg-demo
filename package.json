@@ -1,5 +1,74 @@
 {
+  "name": "yuguo-api",
+  "private": true,
+  "version": "1.0.0",
+  "main": "app.js",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "scripts": {
+    "release": "node ./node_modules/.bin/gulp release",
+    "clean": "node ./node_modules/.bin/gulp clean",
+    "test": "node ./node_modules/.bin/gulp test",
+    "test-cov": "node ./node_modules/.bin/gulp test-cov",
+    "start": "node app.js"
+  },
   "dependencies": {
-    "thenjs": "^2.0.4"
+    "bcryptjs": "2.2.2",
+    "connect-redis": "1.4.5",
+    "cron": "1.0.9",
+    "crypto": "^0.0.3",
+    "dateformat": "1.0.11",
+    "express-xml-bodyparser": "^0.3.0",
+    "hashids": "1.0.2",
+    "iconv-lite": "0.4.11",
+    "jpush-sdk": "3.2.1",
+    "jssha": "1.5.0",
+    "lodash": "^4.0.0",
+    "marked": "^0.3.6",
+    "merge-defaults": "0.2.1",
+    "moment": "^2.15.2",
+    "node-uuid": "^1.4.7",
+    "passport": "0.3.2",
+    "passport-local": "1.0.0",
+    "pingpp": "^2.0.7",
+    "pretty-bytes": "2.0.1",
+    "qiniu": "6.1.8",
+    "randomstring": "^1.1.5",
+    "rc": "^1.1.6",
+    "react": "0.13.3",
+    "react-mixin": "3.0.0",
+    "react-router": "0.13.3",
+    "redis": "2.3.1",
+    "request": "2.62.0",
+    "sails": "0.11.3",
+    "sails-build-dictionary": "0.10.1",
+    "sails-migrations": "2.0.8",
+    "sails-mysql": "0.11.2",
+    "sails-util": "0.10.6",
+    "shortid": "^2.2.6",
+    "split": "1.0.0",
+    "thenjs": "2.0.2",
+    "urlencode": "1.1.0",
+    "waterline": "0.10.30",
+    "xinge": "1.1.3",
+    "xml2js": "0.4.17",
+    "xmlbuilder": "^8.2.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0",
+    "glob": "^7.0.5",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^3.0.0",
+    "isparta": "^4.0.0",
+    "mocha": "^3.0.1",
+    "should": "^11.0.0",
+    "supertest": "^2.0.0"
   }
 }
