@@ -863,6 +863,10 @@ chalk@^1.0.0, chalk@^1.1.0, chalk@^1.1.1:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
+child_process:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/child_process/-/child_process-1.0.2.tgz#b1f7e7fc73d25e7fd1d455adc94e143830182b5a"
+
 clean-css@~2.1.0:
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-2.1.8.tgz#2b4b2fd60f32441096216ae25a21faa74580dc83"
@@ -2456,9 +2460,9 @@ has-gulplog@^0.1.0:
   dependencies:
     sparkles "^1.0.0"
 
-hashids@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/hashids/-/hashids-1.0.2.tgz#75a8145113e48dd00bf36b6b1d2a9d12e450d5a7"
+hashids:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/hashids/-/hashids-1.1.1.tgz#3c36fcc5b3ba1a96a8fa67a632eb7877c41c6d3e"
 
 hawk@~1.0.0:
   version "1.0.0"
